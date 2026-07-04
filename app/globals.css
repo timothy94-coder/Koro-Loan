@@ -81,3 +81,14 @@ body {
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out;
 }
+
+@keyframes bounceSlow {
+  0% { transform: translateY(20px); opacity: 0; }
+  20% { transform: translateY(0); opacity: 1; }
+  80% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-20px); opacity: 0; }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 6s infinite;
+}
