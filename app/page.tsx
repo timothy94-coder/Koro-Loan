@@ -6,34 +6,34 @@ import React from "react";
 // CONFIG — swap these values for your own content
 // ---------------------------------------------
 const CONFIG = {
-  brandName: "Free Legit Aviator Daily Predictions",
-  headline: "Join Our Community",
-  subheadline: "Get updates, resources, and support — all in one place.",
-  ctaText: "JOIN WHATSAPP GROUP",
-  whatsappLink: "https://chat.whatsapp.com/CjcuFenFBRxBJ0iOehSk2q?s=cl&p=a&ilr=4",
+  brandName: "Your Dating Channel",
+  headline: "Join Our Dating Community",
+  subheadline: "Meet new people, chat, and make real connections — all in one place.",
+  ctaText: "JOIN TELEGRAM CHANNEL",
+  whatsappLink: "https://t.me/+cFEY82mMorYxZGRk",
   features: [
     {
-      title: "Daily Updates",
-      description: "Stay in the loop with fresh content shared every day.",
-      icon: "",
+      title: "Daily Matches",
+      description: "Fresh profiles and conversation starters shared every day.",
+      icon: "💕",
     },
     {
-      title: "Exclusive Offers",
-      description: "Get access to deals and perks only for group members.",
-      icon: "",
+      title: "Exclusive Perks",
+      description: "Get access to events and features only for channel members.",
+      icon: "🎁",
     },
     {
-      title: "Real Support",
-      description: "Ask questions and get help from a real community.",
-      icon: "",
+      title: "Friendly Community",
+      description: "A respectful space to meet people and chat with confidence.",
+      icon: "💬",
     },
   ],
   about: {
     title: "About Us",
     body:
-      "We're a community built around sharing useful information and helping each other out. Join us on WhatsApp to stay connected and never miss an update.",
+      "We're a community built for singles looking to meet new people in a friendly, respectful space. Join our Telegram channel to stay connected and never miss a new member or update.",
   },
-  footerText: `© ${new Date().getFullYear()} ${"Your Community"}. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} ${"Your Dating Channel"}. All rights reserved.`,
 };
 
 export default function LandingPage() {
@@ -114,11 +114,11 @@ function WhatsAppIcon() {
     <svg
       width="24"
       height="24"
-      viewBox="0 0 24 24"
+      viewBox="0 0 240 240"
       fill="currentColor"
       style={{ marginRight: 10, flexShrink: 0 }}
     >
-      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38c1.44.79 3.07 1.2 4.72 1.2h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2zm0 18.15h-.01c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 01-1.25-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 012.41 5.83c0 4.55-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.73-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.41 1.02 2.58.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z" />
+      <path d="M120 0C53.73 0 0 53.73 0 120s53.73 120 120 120 120-53.73 120-120S186.27 0 120 0zm55.2 79.9-19.6 92.5c-1.5 6.7-5.4 8.3-10.9 5.2l-30.1-22.2-14.5 14c-1.6 1.6-3 3-6.1 3l2.2-30.9 56.2-50.8c2.4-2.2-.5-3.4-3.8-1.2l-69.5 43.8-29.9-9.3c-6.5-2-6.6-6.5 1.4-9.6l116.8-45c5.4-2 10.2 1.3 8.2 9.5z" />
     </svg>
   );
 }
